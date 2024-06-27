@@ -1,3 +1,2 @@
-name = input("What is your name? ")
-
-print("nice to meet you, {}".format(name))
+def my_function(a, b):
+    return a + b
