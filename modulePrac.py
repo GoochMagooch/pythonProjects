@@ -1,7 +1,9 @@
-import practice
+from practice import my_function
 
 my_function = 'string'
 print(my_function)
 
-ranVar = practice.my_function(9, 10)
-print(ranVar)
+def my_function():
+    print('string 2')
+
+my_function()
